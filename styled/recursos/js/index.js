@@ -1,20 +1,7 @@
 $(document).ready(function() {
-    imprimiTextoPersonalizado();
     formataToggle(".navbar-toggler", "300px", "100px");
     formataToggle(".dropdown-toggle", "400px", "277px");
 });
-
-function imprimiTextoPersonalizado() {
-    var textoPersonalizado = "STYLE D REFERENCE";
-    var i = 0;
-    var imprimiTexto = setInterval(function() {
-        i++;
-        if (textoPersonalizado.length == i) {
-            i = 0;
-        }
-        $(".texto-personalizado").text(textoPersonalizado.substring(0, i));
-    }, 500);
-}
 
 function isMobile() {
     if ($(window).width() < 940) {

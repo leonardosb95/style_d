@@ -1,0 +1,19 @@
+footer.bg-dark {
+    background-color: black !important;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.fab {
+    cursor: pointer;
+}
+
+footer h2 {
+    font-size: 22px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 20px !important;
+    font-family: 'universalis_adf_std_bold';
+}

@@ -1,0 +1,50 @@
+/* MOBILE */
+
+@media only screen and (max-width: 940px) {
+    nav {
+        height: 0px;
+        background-color: white !important;
+    }
+    .texto-personalizado {
+        display: none;
+    }
+    .contato ul li {
+        color: white;
+        display: inline-block;
+        margin-right: 30px;
+        font-size: 10px;
+    }
+    section.styled-bannerWrapper {
+        margin-top: 100px;
+        height: 403px;
+    }
+    .fa-search {
+        color: lightgray;
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .formPesquisa {
+        position: none;
+        left: 0px;
+    }
+    input[type="search"] {
+        width: 300px !important;
+        height: 50px;
+    }
+    footer h2 {
+        color: white;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px !important;
+    }
+    #login {
+        position: absolute;
+        top: 70px;
+        right: -10px;
+        cursor: pointer;
+        font-family: 'universalis_adf_std_bold';
+    }
+    .label-carrinho {
+        display: none;
+    }
+}
