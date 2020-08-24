@@ -18,6 +18,10 @@ section.styled-bannerWrapper {
     height: 403px;
 }
 
+section.styled-bannerWrapper-mobile {
+    display: none;
+}
+
 img.d-block {
     height: 403px;
     width: 100%;

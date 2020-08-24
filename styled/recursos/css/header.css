@@ -47,6 +47,10 @@ div.link-cart {
     padding: 10px 20px 10px 45px;
 }
 
+div.link-cart-mobile {
+    display: none;
+}
+
 a.nav-link {
     font-size: 14px !important;
     color: #666 !important;

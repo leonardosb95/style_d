@@ -6,11 +6,11 @@ footer {
     margin-top: 20px;
 }
 
-.fab {
+i.fab {
     cursor: pointer;
 }
 
-footer h2 {
+footer div h2 {
     font-size: 22px;
     color: white;
     margin-left: 0px;
